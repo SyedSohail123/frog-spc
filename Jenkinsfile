@@ -24,8 +24,8 @@ pipeline {
                     tool: 'default'
                     id: "MAVEN_DEPLOYER",
                     serverId: "Jfrog_Devops",
-                    releaseRepo: 'qtdevops-libs-release-local',
-                    snapshotRepo: 'qrdevops-libs-snapshot-local'
+                    releaseRepo: 'qtdevops-libs-release',
+                    snapshotRepo: 'qrdevops-libs-snapshot'
                 )
                 rtMavenRun (                    
                     pom: 'pom.xml',
